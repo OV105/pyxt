@@ -1,0 +1,11 @@
+include setup.py
+include AUTHORS
+include COPYING
+include Makefile
+include README
+include pyxt.spec
+#include pyxt/__init__.py
+#include pyxt/wqueue.py
+recursive-include pyxt *.py
+recursive-include src *.c *.h
+
